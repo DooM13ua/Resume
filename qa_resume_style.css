@@ -1,0 +1,213 @@
+/* Body */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: #f1efef;
+}
+header{
+    padding-top: 20px;
+    background-color: #cccccc45;
+    color: #000000;
+    text-align:center;   
+}
+.title{
+    font-family: 'Montserrat';    
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+}
+.name{
+    font-family: 'Montserrat'; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight:900;
+    font-size: 30px;
+    line-height: 55px;
+}
+.summary{
+    text-align:left;
+    font-size: 18px;
+    font-weight:500;
+    margin-left: 38px;
+    margin-right: 90px;
+
+}
+.container{
+    background-color: #f1efef;
+    display: flex;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+}
+.h_line{
+    border-bottom: 1px solid black;
+}
+/* Main */
+.main{
+    flex: 2;
+    padding: 1px; 
+    border-right: 1px solid #000000; 
+}
+
+/* Projects */
+.projects{
+    margin-left: 50px;
+}
+.project-link{
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.section{
+    font-family: 'Montserrat';
+    margin-right: 257px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/* Experience */
+.experience{
+    margin-left: 50px;
+}
+.exp_positon{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.exp_company{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #d06640;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.date{
+    color: #535151;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+.exp_country{
+    color: black;   
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.responsibilities{
+    color: #0c0c0c;
+    padding: 0;
+    margin-left: 15px;
+}
+.respons_list{
+    color: #0c0c0c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+}
+/* Education */
+.education{
+    margin-left: 50px;
+}
+.edu_company{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #d06640;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.edu_position{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Sidebar */
+.sidebar{
+    background-color: #f1efef;
+    width:300px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 20px;
+}   
+.sidebar_title{
+    color: #000000;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Contacts */
+.contact_type{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+.contact_link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1c14bc;
+}
+/* Skills */
+.skill_list{
+    margin-left: 17px;
+    padding: 8px;
+}
+.skill_list_item{
+    color: #d06640;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}  
+.skill_list_text{
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.summary, .sidebar {
+    flex: 1;
+    padding: 15px; 
+
+}
